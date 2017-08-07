@@ -1,0 +1,22 @@
+
+.banner {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner-content {
+  color: white;
+  text-align: center;
+  width: 1000px;
+  h3 {
+    color: lightgrey;
+  }
+}
+
+
+
+
