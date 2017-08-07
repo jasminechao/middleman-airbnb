@@ -1,0 +1,54 @@
+- owner: "Jasmine"
+  name: "Jasmine's apartment"
+  description: "Charming room in Paris"
+  city_name: "Paris, France"
+  city_slug: "paris"
+  rating: 5
+  long_desc: "This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center, in a calm traditional residential area near city´s main Avenue - 3 minutes walk from Sacré Coeur."
+  accommodates: 2
+  bathrooms: 1
+  bed_type: "REAL BED"
+  bedrooms: 1
+  beds: 1
+  property_type: "apartment"
+  room_type: "ENTIRE HOME/APT"
+  kitchen: true
+  wifi: false
+  tv: true
+  alcohol: true
+- owner: "John"
+  name: "John's flat"
+  description: "Small flat in ideal London location"
+  city_name: "London, UK"
+  city_slug: "london"
+  wifi: true
+  rating: 3
+  long_desc: "Located only 3 minutes away from Shibuya Station, one of Tokyo’s prominent business & commercial districts with multiple subway lines included Metro and JR. Accommodations range from Studio ~ 2 Bedroom, all located on the 14F, offering views of the city and nature of Yoyogi Park for tenants from single businessman to Family travelers."
+  accommodates: 3
+  bathrooms: 1
+  bed_type: "REAL BED"
+  bedrooms: 1
+  beds: 2
+  property_type: "apartment"
+  room_type: "ENTIRE HOME/APT"
+  kitchen: true
+  tv: true
+  alcohol: true
+- owner: "Sey"
+  name: "Sey's home"
+  description: Large home in Tiergarten
+  city_name: "Berlin, Germany"
+  city_slug: "berlin"
+  wifi: true
+  rating: 5
+  long_desc: "Apartment in Tiergarten offers accommodations in Berlin, 1.4 km from The Brandenburg Gate and one kilometer from Natural History Museum. The property features views of the garden and is 2.6 km from Gendarmenmarkt. The kitchen is equipped with an oven. A flat-screen TV is featured. There is a private bathroom with a shower."
+  accommodates: 6
+  bathrooms: 2
+  bed_type: "REAL BED"
+  bedrooms: 3
+  beds: 4
+  property_type: "apartment"
+  room_type: "ENTIRE HOME/APT"
+  kitchen: true
+  tv: true
+  alcohol: true

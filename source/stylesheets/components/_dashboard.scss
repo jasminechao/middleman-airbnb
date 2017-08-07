@@ -1,0 +1,50 @@
+.dashboard {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+
+.dashboard-background {
+  background-color: white;
+}
+
+.small-avatar {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.flat-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  margin: 20px 56px;
+}
+
+.flat-header {
+  padding: 10px 0;
+}
+
+.flat-name {
+  padding: 10px 35px;
+}
+
+.book-form-container {
+  display: flex;
+  text-align: center;
+}
+.book-form {
+  padding-left: 50px;
+}
+
+.form-dropdown {
+  width: 100%;
+}
+
+.form-book-btn {
+  width: 100%;
+}
+
+// * {
+//   border: thin red solid;
+// }

@@ -3,17 +3,17 @@
   <div class="cards-container">
     <div class="container">
       <div class="row">
-      <% data.cities.each do |city| %>
+      <% data.flats.each do |flat| %>
          <div class="col-xs-12 col-sm-4">
-          <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/<%= city.name %>');">
-            <div class="card-category"><%= city.name %>
+          <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/<%= flat.city_slug %>');">
+            <div class="card-category"><%= flat.city_name %>
             </div>
             <div class="card-description">
-              <h2> <%= city.desc_title %></h2>
-              <p> <%= city.desc_body %> </p>
+              <h2> <%= flat.name %></h2>
+              <p> <%= flat.description %> </p>
             </div>
-            <img class="card-user" src="images/<%=city.owner%>.jpg">
-            <a class="card-link" href="#" ></a>
+            <img class="card-user" src="images/<%=flat.owner.downcase%>.jpg">
+            <%= link_to "", "/flats/#{flat.owner.downcase}.html", class: "card-link" %>
           </div>
         </div>
       <% end %>
