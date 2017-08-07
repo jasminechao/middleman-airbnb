@@ -1,0 +1,27 @@
+.team {
+  text-align: center;
+  padding: 100px;
+  .fa-heart {
+    color: #D23333;
+  }
+}
+
+.user-container {
+  display: flex;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+  .avatar {
+    width: 200px;
+    border-radius: 50%;
+  }
+  text-decoration: none;
+  a:hover {
+    opacity: 1;
+    text-decoration:none;
+  }
+}
+
+
+
+
